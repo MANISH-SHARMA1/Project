@@ -30,6 +30,10 @@
   overflow: scroll;
 }
 
+.button::-webkit-scrollbar {
+  display: none;
+}
+
 .path {
   display: flex;
   align-items: center;
