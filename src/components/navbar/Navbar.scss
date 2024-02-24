@@ -1,0 +1,39 @@
+.navbar {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-weight: bold;
+
+  .search {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.3rem;
+
+    input {
+      border: none;
+      padding: 5px;
+      outline: none;
+    }
+  }
+
+  p {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .navbar {
+    display: block;
+    text-align: center;
+
+    .search {
+      border-radius: 0px;
+    }
+  }
+}

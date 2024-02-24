@@ -1,0 +1,37 @@
+.horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: -15px 0px;
+  #update {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    #update1 {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+
+  #sub {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  #downArrow {
+    font-size: 1.5rem;
+  }
+}
+
+.button {
+  display: flex;
+  gap: 50px;
+  overflow: scroll;
+}
+
+.path {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

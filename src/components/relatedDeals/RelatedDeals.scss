@@ -1,0 +1,34 @@
+.cards {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+
+  .banner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: -30px;
+
+    p {
+      background-color: rgb(229, 241, 246);
+      color: rgb(52, 127, 231);
+      padding: 5px;
+      border-radius: 4px;
+    }
+  }
+
+  #p {
+    text-align: left;
+    margin: -10px 0;
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    span {
+      color: red;
+    }
+  }
+}
